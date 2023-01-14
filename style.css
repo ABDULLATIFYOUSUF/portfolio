@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.class{
+background-image: url(./background\ image.jfif);
+height: 100vh;
+
+}
+.class1{
+    color: burlywood;
+    text-align: center;
+    padding-top: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+
+}
+.class1 b{
+    color: aqua;
+}
+.class1 button{
+    background-color: transparent;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-size: large;
+    border-color: aqua;
+    text-decoration: none;
+}
+.class1 button a{
+    color: white;
+    text-decoration: none;
+}
+.class1 button a:hover{
+ color: blue;   
+}
+.smitform{
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0 0px 15px;
+    background-color: black;
+    text-align: center;
+}
+.smitform a{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+.smitform a:hover{
+    text-decoration: underline;
+}
+.heading{
+    text-align: center;
+    background-color: brown;
+    height: 50px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: underline;
+}
+.link{
+    padding: 10px 0 0 30px;
+    word-spacing: 80px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.link a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.workpage{
+    background-color: #292f59;
+    
+}
+.contactpage{
+    background-color: black;
+}
+.periodictable{
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0 0px 15px;
+    background-color: black;
+    text-align: center;
+}
+.periodictable a{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+.periodictable a:hover{
+    text-decoration: underline;
+}
+.onepagelayout{
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0 0px 15px;
+    background-color: black;
+    text-align: center;}
+    .onepagelayout a{
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: large;
+        cursor: pointer;
+    }
+    .onepagelayout a:hover{
+        text-decoration: underline;
+    }
+.pages{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+}
+.pages2{
+    display: flex;
+    margin-left: 28px;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+}
+.multiplepages{
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0 0px 15px;
+    background-color: black;
+    text-align: center;}
+    .multiplepages a{
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: large;
+        cursor: pointer;
+    }
+    .multiplepages a:hover{
+        text-decoration: underline;
+    }
+    .aboutpage{
+        background-color: #292f59;
+        
+    }
+    .formpage{
+        border: 2px solid white;
+        width: 400px;
+        height: 400px;
+        margin: 15px 0 0px 15px;
+        background-color: black;
+        text-align: center;}
+        .formpage a{
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-size: large;
+            cursor: pointer;
+        }
+        .formpage a:hover{
+            text-decoration: underline;
+        }
+        .applesite{
+            border: 2px solid white;
+            width: 400px;
+            height: 400px;
+            margin: 15px 0 0px 15px;
+            background-color: black;
+            text-align: center;}
+            .applesite a{
+                color: blue;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                font-size: large;
+                cursor: pointer;
+            }
+            .applesite a:hover{
+                text-decoration: underline;
+            }
+            .pages3{
+                display: flex;
+                justify-content: center;
+                gap: 60px;
+                width: 100%;
+            }
+            .saylanihome{
+                border: 2px solid white;
+                width: 400px;
+                height: 400px;
+                margin: 15px 0 0px 15px;
+                background-color: black;
+                text-align: center;}
+                .saylanihome a{
+                    color: blue;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-decoration: none;
+                    font-size: large;
+                    cursor: pointer;
+                }
+                .saylanihome a:hover{
+                    text-decoration: underline;
+                }
+                .backgroundlayout{
+                    border: 2px solid white;
+                    width: 400px;
+                    height: 400px;
+                    margin: 15px 0 0px 15px;
+                    background-color: black;
+                    text-align: center;}
+                    .backgroundlayout a{
+                        color: blue;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-decoration: none;
+                        font-size: large;
+                        cursor: pointer;
+                    }
+                    .backgroundlayout a:hover{
+                        text-decoration: underline;
+                    }
+                    .portfolio{
+                        border: 2px solid white;
+                        width: 400px;
+                        height: 400px;
+                        margin: 15px 0 0px 15px;
+                        background-color: black;
+                        text-align: center;}
+                        .portfolio a{
+                            color: blue;
+                            font-family: Arial, Helvetica, sans-serif;
+                            text-decoration: none;
+                            font-size: large;
+                            cursor: pointer;
+                        }
+                        .portfolio a:hover{
+                            text-decoration: underline;
+                        }
