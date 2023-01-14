@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.class{
-background-image: url(./background\ image.jfif);
-height: 100vh;
+
+.class {
+    background-image: url(./background\ image.jfif);
+    height: 100vh;
 
 }
-.class1{
+
+.class1 {
     color: burlywood;
     text-align: center;
     padding-top: 350px;
@@ -15,10 +17,12 @@ height: 100vh;
     font-size: xx-large;
 
 }
-.class1 b{
+
+.class1 b {
     color: aqua;
 }
-.class1 button{
+
+.class1 button {
     background-color: transparent;
     width: 180px;
     height: 40px;
@@ -27,14 +31,17 @@ height: 100vh;
     border-color: aqua;
     text-decoration: none;
 }
-.class1 button a{
+
+.class1 button a {
     color: white;
     text-decoration: none;
 }
-.class1 button a:hover{
- color: blue;   
+
+.class1 button a:hover {
+    color: blue;
 }
-.smitform{
+
+.smitform {
     border: 2px solid white;
     width: 400px;
     height: 400px;
@@ -42,31 +49,37 @@ height: 100vh;
     background-color: black;
     text-align: center;
 }
-.smitform a{
+
+.smitform a {
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: large;
     cursor: pointer;
 }
-.smitform a:hover{
+
+.smitform a:hover {
     text-decoration: underline;
 }
-.heading{
+
+.heading {
     text-align: center;
     background-color: brown;
     height: 50px;
-    margin-top: 20px;
+    width: 500px;
+    margin: 20px auto;
+    padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     color: aliceblue;
-    text-decoration: underline;
 }
-.link{
+
+.link {
     padding: 10px 0 0 30px;
     word-spacing: 80px;
 }
-.link a{
+
+.link a {
     color: white;
     text-decoration: none;
     font-size: larger;
@@ -74,174 +87,297 @@ height: 100vh;
     font-weight: bold;
     cursor: pointer;
 }
-.link a:hover{
+
+.link a:hover {
     text-decoration: underline;
     color: blue;
 }
-.workpage{
-    background-color: #292f59;
-    
+
+.workpage {
+    background-image: url(./backgroundimage3.jpeg);
 }
-.contactpage{
-    background-color: black;
+
+.contactpage {
+    background-image: url(./backgroundimage4.webp);
+    height: 100vh
 }
-.periodictable{
+
+.periodictable {
     border: 2px solid white;
     width: 400px;
     height: 400px;
-    margin: 15px 0 0px 15px;
+    margin: 15px 0 0 0;
     background-color: black;
     text-align: center;
 }
-.periodictable a{
+
+.periodictable a {
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: large;
     cursor: pointer;
 }
-.periodictable a:hover{
+
+.periodictable a:hover {
     text-decoration: underline;
 }
-.onepagelayout{
+
+.onepagelayout {
     border: 2px solid white;
     width: 400px;
     height: 400px;
-    margin: 15px 0 0px 15px;
+    margin: 15px 0 0 0;
     background-color: black;
-    text-align: center;}
-    .onepagelayout a{
-        color: blue;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        font-size: large;
-        cursor: pointer;
-    }
-    .onepagelayout a:hover{
-        text-decoration: underline;
-    }
-.pages{
+    text-align: center;
+}
+
+.onepagelayout a {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.onepagelayout a:hover {
+    text-decoration: underline;
+}
+
+.pages {
     display: flex;
     justify-content: center;
     gap: 60px;
     width: 100%;
 }
-.pages2{
+
+.pages2 {
     display: flex;
-    margin-left: 28px;
     justify-content: center;
     gap: 60px;
     width: 100%;
 }
-.multiplepages{
+
+.multiplepages {
     border: 2px solid white;
     width: 400px;
     height: 400px;
-    margin: 15px 0 0px 15px;
+    margin: 15px 0 0 0;
     background-color: black;
-    text-align: center;}
-    .multiplepages a{
-        color: blue;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        font-size: large;
-        cursor: pointer;
-    }
-    .multiplepages a:hover{
-        text-decoration: underline;
-    }
-    .aboutpage{
-        background-color: #292f59;
-        
-    }
-    .formpage{
-        border: 2px solid white;
-        width: 400px;
-        height: 400px;
-        margin: 15px 0 0px 15px;
-        background-color: black;
-        text-align: center;}
-        .formpage a{
-            color: blue;
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration: none;
-            font-size: large;
-            cursor: pointer;
-        }
-        .formpage a:hover{
-            text-decoration: underline;
-        }
-        .applesite{
-            border: 2px solid white;
-            width: 400px;
-            height: 400px;
-            margin: 15px 0 0px 15px;
-            background-color: black;
-            text-align: center;}
-            .applesite a{
-                color: blue;
-                font-family: Arial, Helvetica, sans-serif;
-                text-decoration: none;
-                font-size: large;
-                cursor: pointer;
-            }
-            .applesite a:hover{
-                text-decoration: underline;
-            }
-            .pages3{
-                display: flex;
-                justify-content: center;
-                gap: 60px;
-                width: 100%;
-            }
-            .saylanihome{
-                border: 2px solid white;
-                width: 400px;
-                height: 400px;
-                margin: 15px 0 0px 15px;
-                background-color: black;
-                text-align: center;}
-                .saylanihome a{
-                    color: blue;
-                    font-family: Arial, Helvetica, sans-serif;
-                    text-decoration: none;
-                    font-size: large;
-                    cursor: pointer;
-                }
-                .saylanihome a:hover{
-                    text-decoration: underline;
-                }
-                .backgroundlayout{
-                    border: 2px solid white;
-                    width: 400px;
-                    height: 400px;
-                    margin: 15px 0 0px 15px;
-                    background-color: black;
-                    text-align: center;}
-                    .backgroundlayout a{
-                        color: blue;
-                        font-family: Arial, Helvetica, sans-serif;
-                        text-decoration: none;
-                        font-size: large;
-                        cursor: pointer;
-                    }
-                    .backgroundlayout a:hover{
-                        text-decoration: underline;
-                    }
-                    .portfolio{
-                        border: 2px solid white;
-                        width: 400px;
-                        height: 400px;
-                        margin: 15px 0 0px 15px;
-                        background-color: black;
-                        text-align: center;}
-                        .portfolio a{
-                            color: blue;
-                            font-family: Arial, Helvetica, sans-serif;
-                            text-decoration: none;
-                            font-size: large;
-                            cursor: pointer;
-                        }
-                        .portfolio a:hover{
-                            text-decoration: underline;
-                        }
+    text-align: center;
+}
+
+.multiplepages a {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.multiplepages a:hover {
+    text-decoration: underline;
+}
+
+.aboutpage {
+    background-image: url(./backgroundimage1.png);
+    height: 100vh;
+}
+
+.formpage {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0 0 0;
+    background-color: black;
+    text-align: center;
+}
+
+.formpage a {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.formpage a:hover {
+    text-decoration: underline;
+}
+
+.applesite {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0 0 0;
+    background-color: black;
+    text-align: center;
+}
+
+.applesite a {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.applesite a:hover {
+    text-decoration: underline;
+}
+
+.pages3 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+}
+
+.saylanihome {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0 0 0;
+    background-color: black;
+    text-align: center;
+}
+
+.saylanihome a {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.saylanihome a:hover {
+    text-decoration: underline;
+}
+
+.backgroundlayout {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0 0 0;
+    background-color: black;
+    text-align: center;
+}
+
+.backgroundlayout a {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.backgroundlayout a:hover {
+    text-decoration: underline;
+}
+
+.portfolio {
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0 0 0;
+    background-color: black;
+    text-align: center;
+}
+
+.portfolio a {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.portfolio a:hover {
+    text-decoration: underline;
+}
+
+.top {
+    background-image: url(./backgroundimage3.jpeg);
+    height: 30vh;
+}
+
+.top button {
+    color: white;
+    background-color: brown;
+    margin-left: 750px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact1 img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.contact1 img:hover{
+    background-color: blue;
+}
+.contact2 img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.contact2 img:hover{
+    background-color: green;
+}
+.contact3 img:hover{
+    background-color: gray;
+}
+.contact3 img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.contactpage h1{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    
+
+}
+.aboutp{
+    border: 5px solid white;
+    width: 350px;
+    height: 100px;
+    margin: 60px auto;
+}
+.aboutp p{
+    color: white;
+    padding: 10px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.about{
+    width: 250px;
+    height: 300px;
+    margin: 80px auto;
+    border: 5px solid white;
+}
+.about img{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5%;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.about h3{
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
