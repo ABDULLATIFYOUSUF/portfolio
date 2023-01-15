@@ -35,10 +35,11 @@
 }
 
 .class2 {
-    margin: 30px 0 0 1300px;
+    margin: 0px 0 0 1300px;
 }
 
 .class2 img {
+    margin-top: 40px;
     width: 200px;
     height: 200px;
     border-radius: 30%;
@@ -47,6 +48,7 @@
 
 .class3 {
     margin-left: 550px;
+    
 }
 
 .class3 img {
@@ -65,7 +67,7 @@
 
 .class5 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .class5 button {
@@ -310,4 +312,17 @@
     color: #491cff;
     text-decoration: underline;
 
+}
+.home button {
+    background-color: blue;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+.home button:hover {
+    text-decoration: underline;
 }
