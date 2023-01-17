@@ -19,23 +19,6 @@
     margin-top: 5px;
     cursor: pointer;
 }
-
-.btn1:hover {
-    background-color: blue;
-}
-
-.btn2:hover {
-    background-color: lightgreen;
-}
-
-.btn3:hover {
-    background-color: red;
-}
-
-.btn4:hover {
-    background-color: black;
-}
-
 .class2 {
     margin: 0px 0 0 1300px;
 }
